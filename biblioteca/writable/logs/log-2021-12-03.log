@@ -1,0 +1,102 @@
+CRITICAL - 2021-12-03 19:14:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-03 19:15:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-03 19:15:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-03 19:15:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-03 19:15:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-03 19:15:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-03 12:16:12 --> Undefined variable $cabecera
+#0 C:\xampp\htdocs\biblioteca\app\Views\libros\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\biblioteca\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\biblioteca\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\biblioteca\system\Common.php(1097): CodeIgniter\View\View->render('libros/crear', Array, true)
+#4 C:\xampp\htdocs\biblioteca\app\Controllers\Home.php(9): view('libros/crear')
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-03 12:16:35 --> Error connecting to the database: Unknown database 'biblioteca'
+CRITICAL - 2021-12-03 12:16:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'biblioteca'
+#0 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\biblioteca\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->index()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 18:24:57 --> Call to undefined function App\Controllers\first()
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->editar('2')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 18:25:32 --> Undefined constant "cabecera"
+#0 C:\xampp\htdocs\biblioteca\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\biblioteca\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\biblioteca\system\Common.php(1097): CodeIgniter\View\View->render('libros/editar', Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(70): view('libros/editar', Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->editar('2')
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 18:26:04 --> Undefined constant "cabecera"
+#0 C:\xampp\htdocs\biblioteca\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\biblioteca\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\biblioteca\system\Common.php(1097): CodeIgniter\View\View->render('libros/editar', Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(70): view('libros/editar', Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->editar('2')
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-03 18:46:45 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638578805_b17e...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 18:48:01 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638578881_0be3...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

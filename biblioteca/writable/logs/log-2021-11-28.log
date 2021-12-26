@@ -1,0 +1,80 @@
+CRITICAL - 2021-11-28 10:46:46 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638118006_5a79...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 13:16:39 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638126999_c06c...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 13:16:39 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638126999_b551...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 13:16:42 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638127002_88bb...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 13:16:58 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 13:27:02 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 13:34:39 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 13:38:02 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638128282_366f...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 13:40:52 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

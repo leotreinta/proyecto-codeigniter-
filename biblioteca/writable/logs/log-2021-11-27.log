@@ -1,0 +1,88 @@
+CRITICAL - 2021-11-27 18:21:20 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\biblioteca\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(28): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', '1638058880_97ca...')
+#2 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#3 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-27 18:23:02 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:26:11 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:26:17 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:30:13 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:30:16 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:30:34 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:30:34 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-27 18:30:38 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\xampp\htdocs\biblioteca\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\xampp\htdocs\biblioteca\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\biblioteca\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\biblioteca\app\Controllers\Libros.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(824): App\Controllers\Libros->guardar()
+#5 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\biblioteca\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
